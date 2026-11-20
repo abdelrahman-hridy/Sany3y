@@ -1,0 +1,7 @@
+Feature,Importance_Mean,Importance_STD
+Sub_Category,0.3509,0.0095
+Service_Category,0.1825,0.0031
+Distance_KM,0.0735,0.0011
+Zone_Class,0.0471,0.0012
+Is_Peak_Hour,0.0361,0.0007
+Is_Weekend,0.0171,0.0005
