@@ -1,0 +1,4 @@
+Zone_Class,Samples,Average_Actual,Average_Predicted,MAE,MAPE
+Class_A,352,386.89,386.24,25.4,6.88
+Class_B,706,338.15,337.05,22.37,6.77
+Class_C,442,310.98,312.24,20.08,6.51

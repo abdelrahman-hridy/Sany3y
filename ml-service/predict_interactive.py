@@ -6,7 +6,8 @@ import joblib
 import numpy as np
 import pandas as pd
 
-MODEL_PATH = "models/sany3y_hybrid_model.joblib"
+model = int(input("model (1 = Random Forest, 0 = XGBoost): ").strip())
+MODEL_PATH =  "models/sany3y_hybrid_model.joblib" if model == 1 else "models/hybrid_xgboost_model.joblib"
 artifact = joblib.load(MODEL_PATH)
 
 base_pipeline = artifact["base_pipeline"]
@@ -78,6 +79,7 @@ while True:
     distance = float(input("\nDistance (KM): ").strip())
     is_peak = int(input("Is Peak Hour? (1 = Yes, 0 = No): ").strip())
     is_weekend = int(input("Is Weekend? (1 = Yes, 0 = No): ").strip())
+    
 
     request_df = pd.DataFrame([{
         "Service_Category": category,
@@ -86,6 +88,7 @@ while True:
         "Distance_KM": distance,
         "Is_Peak_Hour": is_peak,
         "Is_Weekend": is_weekend,
+        
     }])
 
     base_price = float(base_pipeline.predict(request_df[context_features])[0])
