@@ -1,0 +1,13 @@
+Zone,Peak_Hour,Weekend,Predicted_Price
+Class_A,0,0,215.15
+Class_A,0,1,239.05
+Class_A,1,0,255.16
+Class_A,1,1,284.29
+Class_B,0,0,188.67
+Class_B,0,1,210.9
+Class_B,1,0,222.17
+Class_B,1,1,249.44
+Class_C,0,0,173.35
+Class_C,0,1,195.1
+Class_C,1,0,202.58
+Class_C,1,1,227.91

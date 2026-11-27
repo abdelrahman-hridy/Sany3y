@@ -1,0 +1,6 @@
+Service_Category,Samples,Average_Actual,Average_Predicted,MAE,MAPE
+Carpentry,314,239.44,239.65,15.87,6.66
+Electricity,307,227.46,227.76,15.96,6.96
+HVAC,307,511.09,513.17,30.37,6.1
+Painting,279,495.04,492.71,33.9,6.93
+Plumbing,293,246.87,244.86,16.89,6.98
