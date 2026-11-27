@@ -681,6 +681,3 @@ importance_df.to_csv(
 
 print("\n========================================")
 print("XGBOOST MODEL AND REPORTS SAVED")
-print("========================================")
-
-print("Model:", MODEL_PATH)
